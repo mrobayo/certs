@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./shared/animate.scss";
+/*
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+*/
+@import url("https://fonts.googleapis.com/css?family=Overpass:400,700,900&display=swap");
+
+html,
+body {
+  height: 100%;
+  font-family: "Overpass", sans-serif;
+}
+/*font-family: 'Lato', sans-serif;*/
+/*body {
+  display: flex;
+  flex-direction: column;
+}*/
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+.sticky-footer {
+  flex-shrink: 0;
+}

@@ -1,5 +1,49 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+https://developerhandbook.com/webpack/how-to-configure-scss-modules-for-webpack/
+
+**Initialize**
+
+`npx create-react-app mdn-certs`
+
+**Install SASS**
+
+Remember to use **App.module.scss** file name convention
+
+~~~bash
+yarn add node-sass
+~~~
+
+**Install Bootstrap**
+
+https://blog.logrocket.com/how-to-use-bootstrap-with-react-a354715d1121/
+
+~~~bash
+yarn add react-bootstrap bootstrap
+yarn add jquery popper.js
+~~~
+
+**Install Redux**
+
+~~~bash
+yarn add redux redux-thunk react-redux
+yarn add react-router-dom
+~~~
+
+**Install PRETTIER**
+
+~~~bash
+yarn add --dev eslint
+yarn add --dev prettier -exact
+yarn add --dev eslint-config-prettier
+~~~
+
+**Add Animations**
+
+[Animate.css](https://github.com/daneden/animate.css)
+https://webdesign.tutsplus.com/articles/css3-transitions-and-transforms-from-scratch--webdesign-4975
+
+
 ## Available Scripts
 
 In the project directory, you can run:
