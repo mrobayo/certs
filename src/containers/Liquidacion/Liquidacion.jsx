@@ -1,9 +1,14 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import Aux from "../../hoc/Aiux/Aiux";
+import { GoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const liquidacion = () => (
   <Aux>
+    <GoogleReCaptcha
+      action="serviceTime"
+      onVerify={token => console.log(token)}
+    />
     <section>
       <h3>Consulta de Liquidación de Tiempo de Servicio</h3>
       <article>

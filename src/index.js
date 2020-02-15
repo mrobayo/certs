@@ -3,17 +3,22 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { CookiesProvider } from "react-cookie";
 
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+
 import "./index.scss";
 
 import App from "./App";
+import config from "./config";
 import * as serviceWorker from "./serviceWorker";
 
 const app = (
-  <BrowserRouter>
-    <CookiesProvider>
-      <App hola="Chao" />
-    </CookiesProvider>
-  </BrowserRouter>
+  <GoogleReCaptchaProvider reCaptchaKey={config.reCaptchaKey} language="en">
+    <BrowserRouter>
+      <CookiesProvider>
+        <App />
+      </CookiesProvider>
+    </BrowserRouter>
+  </GoogleReCaptchaProvider>
 );
 
 ReactDOM.render(app, document.getElementById("root"));
