@@ -25,3 +25,6 @@ yarn-error.log*
 /src/config.js
 /package-lock.json
 /yarn.lock
+
+#Idea
+.idea/*
