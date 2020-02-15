@@ -20,7 +20,18 @@ const strings = new LocalizedStrings({
                   of Telecommunications and the Information Society, we communicate 
                   our policy for the processing of personal data. To continue browsing
                   this site you must accept the terms of it.`,
-    acceptLabel: "Accept"
+    acceptLabel: "Accept",
+    bePart: {
+      title: "Belong or Not Query",
+      leyend: "Enter your ID",
+      idlabel: "Identity",
+      idplaceholder: "Identity",
+      idhint: "Enter Identity",
+      seclabel: "Security text",
+      secplaceholder: "Security text",
+      sechint: "Enter security text",
+      action: "Continue"
+    }
   },
   es: {
     appTitle: config.appTitle,
@@ -36,7 +47,18 @@ const strings = new LocalizedStrings({
     PDPP: config.PDPP,
     aggrementPDPP: config.aggrementPDPP,
     consentPDPP: config.consentPDPP,
-    acceptLabel: config.acceptLabel
+    acceptLabel: config.acceptLabel,
+    bePart: {
+      title: config.bePartTitle,
+      leyend: config.bePartLeyend,
+      idlabel: config.bePartIdlabel,
+      idplaceholder: config.bePartIdplaceholder,
+      idhint: config.bePartIdhint,
+      seclabel: config.bePartSeclabel,
+      secplaceholder: config.bePartSecplaceholder,
+      sechint: config.bePartSechint,
+      action: config.bePartContinue
+    }
   }
 });
 
