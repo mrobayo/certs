@@ -6,7 +6,7 @@ import classes from "./Logo.module.scss";
 
 const logo = ({ height }) => (
   <div className={classes.Logo} style={{ height: height }}>
-    <img src={appLogo} alt="MyBurger" />
+    <img src={appLogo} alt="Logo" />
   </div>
 );
 
